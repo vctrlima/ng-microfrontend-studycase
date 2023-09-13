@@ -1,4 +1,5 @@
 {
   "first": "http://localhost:4201",
-  "second": "http://localhost:4202"
+  "second": "http://localhost:4202",
+  "home": "http://localhost:4203"
 }
