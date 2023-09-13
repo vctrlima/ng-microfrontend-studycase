@@ -1,3 +1,4 @@
 {
-  "first": "http://localhost:4201"
+  "first": "http://localhost:4201",
+  "second": "http://localhost:4202"
 }
