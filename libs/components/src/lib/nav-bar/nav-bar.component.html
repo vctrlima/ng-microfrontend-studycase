@@ -1,0 +1,9 @@
+<nav class="navigation">
+  <ul>
+    <li *ngFor="let link of links">
+      <ng-container
+        *ngTemplateOutlet="linkTemplateRef; context: { $implicit: link }"
+      ></ng-container>
+    </li>
+  </ul>
+</nav>

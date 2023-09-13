@@ -1,0 +1,12 @@
+<header>
+  <ng-microfrontend-studycase-nav-bar [links]="links">
+    <ng-template let-link>
+      <a #link [routerLink]="link.path" class="navigation--link">
+        {{ link.label }}
+      </a>
+    </ng-template>
+  </ng-microfrontend-studycase-nav-bar>
+</header>
+<main>
+  <router-outlet></router-outlet>
+</main>
